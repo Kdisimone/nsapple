@@ -3,6 +3,8 @@ apple watch app for nightscout users
 
 This project was started awhile ago by Perceptus.org and has just been dusted off recently to help Loop users.  My eternal gratitude to Ken Stack for putting this project together and sharing it with the community.  Until "we" find the time to clean up the code, the following modifications will need to be done to use the watch app with NS.  Note:  if you're good with Swift, the "we" can be you.  Feel free to improve, this is open source after all.
 
+Currently this is for mg/dl.  Still needs mmol support.  Feel free, again, to contribute code support where you can.
+
 
 1.  Change the default URL on **TWO LINES** (Line 168 and Line 315) to your NS URL.
 
