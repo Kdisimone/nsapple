@@ -165,11 +165,7 @@ class InterfaceController: WKInterfaceController {
         
         
         let defaults = UserDefaults(suiteName:"group.perceptus.nsapple")
-        guard let urlstring2 = defaults?.string(forKey: "name_preference") else {
-            self.primarybg.setText("")
-            self.vlabel.setText("URL Entry Error")
-            return
-        }
+        let urlstring2 = "https://yoursite.herokuapp.com"
         
         let urlPath2 = urlstring2 + "/api/v1/devicestatus.json?count=20"
         let escapedAddress = urlPath2.addingPercentEncoding(withAllowedCharacters:NSCharacterSet.urlQueryAllowed)
@@ -316,11 +312,8 @@ class InterfaceController: WKInterfaceController {
         //add retrieve urlfrom user storage
         let bundle = Bundle.main.bundleIdentifier
         let defaults = UserDefaults(suiteName:"group.perceptus.nsapple")
-        guard let url = defaults?.string(forKey: "name_preference") else {
-            self.primarybg.setText("")
-            self.vlabel.setText("URL Entry Error")
-            return
-        }
+        let url = "https://yoursite.herokuapp.com"
+          
       
       print("in update core")
         //set bg color to something old so we know if its not really updating
