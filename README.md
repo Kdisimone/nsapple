@@ -23,7 +23,7 @@ Bool = true (use that for sites in mmol)
 ![dropdown](https://github.com/Kdisimone/images/blob/master/nsapple_dropdown2.png)
 ![dropdown](https://github.com/Kdisimone/images/blob/master/nsapple_dropdown3.png)
 
-3. Now replace the word `perceptus` in the Bundle Identifier line in the three targets; nsapple, nsapple WatchKit Extention, and nsapple WatchKit App
+3. Now replace the word `perceptus` in the Bundle Identifier line in the three targets; nsapple, nsapple WatchKit Extension, and nsapple WatchKit App
 
 ![bundleID](https://github.com/Kdisimone/images/blob/master/nsapple_bundleID.png)
 
