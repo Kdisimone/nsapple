@@ -6,9 +6,9 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 
 1.  Change the URL to your NS site's URL and select the units by editing the Bool value (Lines 16 and 17 in the nsapple WatchKit Extension >> InterfaceController.swift)
 
-Bool = false (use that for sites in mg/dl)
+* For mg/dl sites use:   Bool = false 
 
-Bool = true (use that for sites in mmol)
+* For mmol sites use:    Bool = true
 
 ![URL](https://github.com/Kdisimone/images/blob/master/nsapple-units.png)
 
