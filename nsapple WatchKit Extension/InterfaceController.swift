@@ -349,7 +349,7 @@ class InterfaceController: WKInterfaceController {
  
 
        // let urlPath: String = (url as? String)! + "/pebble?count=576"
-        let urlPath: String = urlUser + "/api/v1/entries.json?count=576"
+        let urlPath: String = urlUser + "/api/v1/entries/sgv.json?count=576"
         ///api/v1/entries/sgv.json
         print("in watchkit")
     
