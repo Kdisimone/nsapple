@@ -12,9 +12,9 @@ import Foundation
 //////////////////////////////////
 //until we fix accessing data from outside of watch app only modify the following variables
 // urlUser - your ns site - you must include the entire thing including https://
-// mmol - True or False - True means display data in mmol/L.  False, which is default, means display in mg/dL
-var urlUser : String = "https://t1daarsloop.herokuapp.com"
-var mmol : Bool = true
+// mmol - True or False - True means display data in mmol/L.  False means display in mg/dL.
+var urlUser : String = "https://mysite.herokuapp.com"
+var mmol : Bool = false
 /////////////////////////////////
 
 
