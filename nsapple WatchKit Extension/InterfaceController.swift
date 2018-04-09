@@ -298,10 +298,21 @@ class InterfaceController: WKInterfaceController {
                             pstatus2 = pstatus2 + "  COB " + String(format:"%.0f", cob)
                         }
                         if let predictdata = loopdata["predicted"] as? [String:AnyObject] {
-                            let prediction = predictdata["values"] as! [Int]
-                            let plast = prediction.last as! Int
-                            pstatus2 = pstatus2 + "  EBG " + String(plast)
-                            
+                            if (mmol == false) {
+                                let prediction = predictdata["values"] as! [Int]
+                                let plast = prediction.last as! Int
+                                pstatus2 = pstatus2 + "  EBG " + String(plast)
+                            } else {
+                                let prediction = predictdata["values"] as! [Int]
+                                let plast = prediction.last as! Int
+                                
+                                let conv = 18.0 as Double
+                                let mmolbg = Double(plast) / conv
+                                let mmoltext = String(format:"%.1f", mmolbg)
+                                
+                                pstatus2 = pstatus2 + "  EBG " + mmoltext
+
+                            }
                         }
                         }
                         
