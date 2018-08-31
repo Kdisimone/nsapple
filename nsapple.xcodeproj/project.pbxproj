@@ -27,6 +27,10 @@
 		11832FFE1B5F4794005E3536 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11832FFD1B5F4794005E3536 /* ViewController2.swift */; };
 		1189EA9A1E7987C400B11975 /* nsapple WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1119BA191B4F04FC00046ABF /* nsapple WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1189EA9D1E7987C400B11975 /* nsapple WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1119BA281B4F04FC00046ABF /* nsapple WatchKit App.app */; };
+		7DD6DBA52138D93000F10278 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 118FA3E920805EB000757121 /* Config.xcconfig */; };
+		7DD6DBA62138D93000F10278 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 118FA3E920805EB000757121 /* Config.xcconfig */; };
+		7DD6DBA72138D93100F10278 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 118FA3E920805EB000757121 /* Config.xcconfig */; };
+		7DD6DBA82138D93200F10278 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 118FA3E920805EB000757121 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -386,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1119B9FB1B4F046E00046ABF /* Main.storyboard in Resources */,
+				7DD6DBA52138D93000F10278 /* Config.xcconfig in Resources */,
 				1119BA001B4F046E00046ABF /* LaunchScreen.xib in Resources */,
 				114199AE200ADAB1007AD506 /* Settings-Watch.bundle in Resources */,
 				1119B9FD1B4F046E00046ABF /* Images.xcassets in Resources */,
@@ -396,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD6DBA62138D93000F10278 /* Config.xcconfig in Resources */,
 				114199AF200ADAB1007AD506 /* Settings-Watch.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114199B0200ADAB1007AD506 /* Settings-Watch.bundle in Resources */,
+				7DD6DBA72138D93100F10278 /* Config.xcconfig in Resources */,
 				1119BA251B4F04FC00046ABF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +420,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD6DBA82138D93200F10278 /* Config.xcconfig in Resources */,
 				1119BA3F1B4F05A000046ABF /* Interface.storyboard in Resources */,
 				1119BA331B4F04FC00046ABF /* Images.xcassets in Resources */,
 				114199B1200ADAB1007AD506 /* Settings-Watch.bundle in Resources */,
@@ -593,8 +601,8 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nsapple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple;
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -613,8 +621,8 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nsapple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple;
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -638,7 +646,7 @@
 				);
 				INFOPLIST_FILE = nsappleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
 				PRODUCT_BUNDLE_IDENTIFIER = "perceptus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -658,7 +666,7 @@
 				);
 				INFOPLIST_FILE = nsappleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
 				PRODUCT_BUNDLE_IDENTIFIER = "perceptus.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -680,9 +688,9 @@
 				);
 				IBSC_MODULE = nsapple_WatchKit_Extension;
 				INFOPLIST_FILE = "nsapple WatchKit App/Info.plist";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple.nsappleWatch;
-				PRODUCT_NAME = "nsapple WatchKit App";
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).nsappleWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -701,9 +709,9 @@
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = nsapple_WatchKit_Extension;
 				INFOPLIST_FILE = "nsapple WatchKit App/Info.plist";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple.nsappleWatch;
-				PRODUCT_NAME = "nsapple WatchKit App";
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).nsappleWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -726,8 +734,8 @@
 				);
 				INFOPLIST_FILE = "nsapple WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple.nsappleWatch.watchkitapp.watchkitextension;
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).nsappleWatch.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -748,8 +756,8 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nsapple WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MAIN_APP_BUNDLE_IDENTIFIER = "$(inherited).nsapple";
-				PRODUCT_BUNDLE_IDENTIFIER = com..perceptus.nsapple.nsappleWatch.watchkitapp.watchkitextension;
+				MAIN_APP_BUNDLE_IDENTIFIER = "com.${DEVELOPMENT_TEAM}.perceptus.nsapple";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER).nsappleWatch.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
