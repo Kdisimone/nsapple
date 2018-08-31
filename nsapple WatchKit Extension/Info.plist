@@ -27,7 +27,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>perceptus.nsapple.watchkitapp</string>
+			<string>$(MAIN_APP_BUNDLE_IDENTIFIER).nsappleWatch</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>

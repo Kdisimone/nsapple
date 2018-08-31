@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-let defaults = UserDefaults(suiteName:"group.com.nsapple")
+let defaults = UserDefaults(suiteName:"group.com.${DEVELOPMENT_TEAM}.perceptus")
 let mmol = defaults?.bool(forKey: "mmol")
 
 
