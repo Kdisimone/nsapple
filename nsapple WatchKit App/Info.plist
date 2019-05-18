@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>replace-me.nsapple</string>
+	<string>${DEVELOPMENT_TEAM}.nsapple</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

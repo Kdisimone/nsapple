@@ -637,7 +637,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perceptus.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -660,7 +660,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "perceptus.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -730,7 +730,7 @@
 				);
 				IBSC_MODULE = nsapple_WatchKit_Extension;
 				INFOPLIST_FILE = "nsapple WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "replace-me.nsapple.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.nsapple.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -749,7 +749,7 @@
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = nsapple_WatchKit_Extension;
 				INFOPLIST_FILE = "nsapple WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "replace-me.nsapple.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.nsapple.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -780,7 +780,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "replace-me.nsapple.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.nsapple.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -808,7 +808,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "replace-me.nsapple.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "${DEVELOPMENT_TEAM}.nsapple.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
