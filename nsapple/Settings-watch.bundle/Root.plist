@@ -36,6 +36,6 @@
 		</dict>
 	</array>
 	<key>ApplicationGroupContainerIdentifier</key>
-	<string>com.replace-me.nsapple</string>
+	<string>com.${DEVELOPMENT_TEAM}.nsapple</string>
 </dict>
 </plist>
