@@ -11,7 +11,7 @@ import Foundation
 
 
 
-let defaults = UserDefaults(suiteName:"group.com.nsapple")
+let defaults = UserDefaults(suiteName:"group.com.replace-me.nsapple")
 let mmol = defaults?.bool(forKey: "mmol")
 
 
