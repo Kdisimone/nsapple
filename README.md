@@ -19,8 +19,8 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 
 4.  When the build is successful, a white screen will appear on your phone and tell you to go use your watch settings app. **You can close that app that pops open after the build...the actual URL entry for your Nightscout site is done in your iPhone's Watch app.**  So, open your Watch app on iPhone (has an icon of an Apple watch as the logo). Find your nsapple app on your list of apps in your Watch app, wait for it to install (or press `install` if you don't have automatic installations turned on). Then open that app by tapping on the name.
 
-![sign](https://github.com/Kdisimone/images/blob/master/tap-here.png)
+![sign](https://github.com/Kdisimone/images/blob/master/tap-here.PNG)
 
 5. Enter your Nightscout site's URL
 
-![sign](https://github.com/Kdisimone/images/blob/master/ns-url.png)
+![sign](https://github.com/Kdisimone/images/blob/master/ns-url.PNG)
