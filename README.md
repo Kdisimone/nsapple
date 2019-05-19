@@ -33,7 +33,7 @@ Please keep in mind this is still a work-in-progress. There's ways to make it fa
 
 * If you have an override running, that will display if you turn the crown to scroll down in the screen (if you're using jojo branch and have updated your NS site accordingly).
 
-![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen1.PNG)
+![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen4.PNG)
 
 ![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen2.PNG)
 
