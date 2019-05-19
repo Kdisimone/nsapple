@@ -1,33 +1,26 @@
 # nsapple
 apple watch app for nightscout users
 
-This project was started awhile ago by Perceptus.org and has just been dusted off recently to help Loop users.  My eternal gratitude to Ken Stack for putting this project together and sharing it with the community.  Until "we" find the time to clean up the code, the following modifications will need to be done to use the watch app with NS.  Note:  if you're good with Swift, the "we" can be you.  Feel free to improve, this is open source after all.
+This project was started awhile ago by Perceptus.org and has just been dusted off recently to help Loop users.  My eternal gratitude to Ken Stack for putting this project together and sharing it with the community.  Until "we" find the time to clean up the code, the following modifications will need to be done to use the watch app with NS.  Note: if you're good with Swift, the "we" can be you.  Feel free to improve, this is open source after all.
 
 
-1.  Change the URL to your NS site's URL and select the units by editing the Bool value (Lines 16 and 17 in the nsapple WatchKit Extension >> InterfaceController.swift)
+1.  Download the code for nsapple-pod branch
 
-* For mg/dl sites use:   `Bool = false` 
+[click here to download](https://github.com/kdisimone/nsapple/archive/nsapple-pod.zip
 
-* For mmol sites use:    `Bool = true`
+2. Open the project and use the search tool in Xcode to replace all the the word `replace-me` instances with your own unique word in 10 places. Note that 7 of them will automatically replace just by pushing the `replace all` button...but the final three in the list will require you to click on the file name and then manually type to replace the `replace-me`, as shown in the screenshots. Use the same word or words-with-hyphens (being careful not to accidentally delete any periods that may be on the same line).  This word should be unique to you so be slightly creative so that the phrase you picked isn't being used by someone else's developer account already (like katie123 is already being used by me, so you won't be able to build with that one). 
 
-![URL](https://github.com/Kdisimone/images/blob/master/nsapple-units.png)
+![files](https://github.com/Kdisimone/images/blob/master/replace-me.png)
+![files](https://github.com/Kdisimone/images/blob/master/replace-me2.png)
 
+3.  Sign all four targets with your apple developer team. You can verify that you've made the replacements correctly if you see your unique phrase in the Bundle Identifier information.
 
-2. Replace the word `perceptus` with your own unique word in the following 5 files.  Use the same word in every place (being careful not to accidentally delete any periods that may be on the same line).  This word should be unique to you so be slightly creative.  Some of the files have dropdown menus to find where you need to edit; the screenshots show them.
+![sign](https://github.com/Kdisimone/images/blob/master/sign-target4.png)
 
-![files](https://github.com/Kdisimone/images/blob/master/nsapple_files.png)
+4.  When the build is successful, a white screen will appear on your phone and tell you to go use your watch settings app. **You can close that app that pops open after the build...the actual URL entry for your Nightscout site is done in your iPhone's Watch app.**  So, open your Watch app on iPhone (has an icon of an Apple watch as the logo). Find your nsapple app on your list of apps in your Watch app, wait for it to install (or press `install` if you don't have automatic installations turned on). Then open that app by tapping on the name.
 
-![dropdown](https://github.com/Kdisimone/images/blob/master/nsapple_dropdown1.png)
-![dropdown](https://github.com/Kdisimone/images/blob/master/nsapple_dropdown2.png)
-![dropdown](https://github.com/Kdisimone/images/blob/master/nsapple_dropdown3.png)
+![sign](https://github.com/Kdisimone/images/blob/master/tap-here.png)
 
-3. Now replace the word `perceptus` in the Bundle Identifier line in the three targets; nsapple, nsapple WatchKit Extension, and nsapple WatchKit App
+5. Enter your Nightscout site's URL
 
-![bundleID](https://github.com/Kdisimone/images/blob/master/nsapple_bundleID.png)
-
-4.  Press command-s to save the project, and sign all four targets with your apple developer team.
-
-![sign](https://github.com/Kdisimone/images/blob/master/nsapple_build.png)
-
-5.  **Totally ignore the iPhone app on your iPhone for now...the NS URL entry is not yet active until "we" fix up the code.  Just use the Watch App version.**  So, you'll find the nsapple app on your list of apps in your watch app...enjoy.
-
+![sign](https://github.com/Kdisimone/images/blob/master/ns-url.png)
