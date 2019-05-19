@@ -24,3 +24,12 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 5. Enter your Nightscout site's URL
 
 ![sign](https://github.com/Kdisimone/images/blob/master/ns-url.PNG)
+
+
+* Your watch app may take a few seconds the first time to load data...older models of watches may have a longer delay.
+
+* If your Loop has a failure, that will display in the bottom information.
+
+* If you have an override running, that will display if you turn the crown to scroll down in the screen
+
+
