@@ -541,16 +541,6 @@ class InterfaceController: WKInterfaceController {
                 return
             }
                 
-//               // let chart = YOChart.SmoothLineChart
-//                let image = YOLineChartImage()
-//                let frame = CGRect(x: 0, y: 0, width: self.contentFrame.width, height: self.contentFrame.height / 1.5)
-//                //let image = chart.drawImage(frame: frame, scale: WKInterfaceDevice.current().screenScale)
-//                image.values = [0.0,1.0,2.0]
-//                image.smooth = false
-//                self.bgimage.setImage(image.draw(frame, scale: WKInterfaceDevice.current().screenScale))
-                //image.draw(frame,scale: bgimage)
-                
-                
 //                  //add graph
                 let google=self.bggraph(self.graphlength,bghist: self.bghist!)!.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
      
