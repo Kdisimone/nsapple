@@ -32,4 +32,8 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 
 * If you have an override running, that will display if you turn the crown to scroll down in the screen
 
+![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen1.PNG)
 
+![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen2.PNG)
+
+![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen3.jpg)
