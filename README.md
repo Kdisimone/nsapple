@@ -1,8 +1,9 @@
 # nsapple
-apple watch app for nightscout users
+An apple watch app for nightscout users.
 
 This project was started awhile ago by Perceptus.org and has just been dusted off recently to help Loop users.  My eternal gratitude to Ken Stack for putting this project together and sharing it with the community.  Until "we" find the time to clean up the code, the following modifications will need to be done to use the watch app with NS.  Note: if you're good with Swift, the "we" can be you.  Feel free to improve, this is open source after all.
 
+Please keep in mind this is still a work-in-progress. There's ways to make it faster and slicker...but time and life get in the way currently. Putting this out there as an unpolished code currently because community has a need currently...and it works ;). 
 
 1.  Download the code for nsapple-pod branch
 
@@ -30,7 +31,7 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 
 * If your Loop has a failure, that will display in the bottom information.
 
-* If you have an override running, that will display if you turn the crown to scroll down in the screen
+* If you have an override running, that will display if you turn the crown to scroll down in the screen (if you're using jojo branch and have updated your NS site accordingly).
 
 ![sign](https://github.com/Kdisimone/images/blob/master/nsapple-screen1.PNG)
 
