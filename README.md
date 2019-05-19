@@ -6,7 +6,7 @@ This project was started awhile ago by Perceptus.org and has just been dusted of
 
 1.  Download the code for nsapple-pod branch
 
-[click here to download](https://github.com/kdisimone/nsapple/archive/nsapple-pod.zip
+[click here to download](https://github.com/kdisimone/nsapple/archive/nsapple-pod.zip)
 
 2. Open the project and use the search tool in Xcode to replace all the the word `replace-me` instances with your own unique word in 10 places. Note that 7 of them will automatically replace just by pushing the `replace all` button...but the final three in the list will require you to click on the file name and then manually type to replace the `replace-me`, as shown in the screenshots. Use the same word or words-with-hyphens (being careful not to accidentally delete any periods that may be on the same line).  This word should be unique to you so be slightly creative so that the phrase you picked isn't being used by someone else's developer account already (like katie123 is already being used by me, so you won't be able to build with that one). 
 
